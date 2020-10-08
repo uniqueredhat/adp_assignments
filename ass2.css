@@ -1,0 +1,71 @@
+header{
+    text-align: center;
+    padding-top: 25px;
+}
+body{
+    animation: body 7s  infinite;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    width: 75%;
+    height: 50%;
+}  
+.sri{
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 350px;
+    height: 100%;
+    font-size: 25px;
+    animation: first 7s  infinite;
+}
+.edu{
+font-size: 25px;
+word-spacing: 5px;
+margin-top: 10px;
+}
+hr{
+    background: repeating-linear-gradient(red,yellow);
+    height: 3px;
+}
+u{
+    animation: second 7s  infinite;
+}
+.id{
+    font-size:30px;
+}
+
+@keyframes first {
+    0% { background: #ffffff; }
+    33% { background: #acbbac;}  
+    67% { background: #000000;
+        color: #ffffff;    }
+    100% { background: #f99;} 
+  }
+@keyframes body {
+    0%{background: #ffffff;} 
+    50%{
+        background: #000000;
+        color: #ffffff;
+    }
+  }
+@keyframes second{
+    0% { background: repeating-linear-gradient(red,yellow);}
+    33% { background: repeating-linear-gradient(yellow,green);}  
+    67% { background: repeating-linear-gradient(yellow,red);}
+    100% { background:repeating-linear-gradient(red,green); }
+
+}
+audio{
+    background-color: #f3f8fb;
+}
+#video{
+    width: 450px;
+}
