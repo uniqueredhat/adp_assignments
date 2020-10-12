@@ -1,0 +1,30 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5dc;
+  
+
+}
+video{
+    animation: background 7s  infinite;
+}
+audio{
+    width:500px;
+    height:30px;
+    animation: background 7s  infinite;
+}
+@keyframes background {
+    0% { background-color: #ffffff; 
+        border: 20px solid;
+        border-image: linear-gradient(#000000, #ffffff) 30;}
+    33% { background-color: #13e413;
+        border: 20px solid;
+        border-image: linear-gradient(#000000, #ffffff) 30;}  
+    67% { background-color: #000000; 
+        border: 20px solid;
+        border-image: linear-gradient( #ffffff,#000000) 30;}
+    100% { background-color: #f99; 
+        } 
+  }
